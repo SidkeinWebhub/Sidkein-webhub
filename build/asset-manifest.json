@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Webhub-FE/static/css/main.a3c25bc9.css",
+    "main.js": "/Webhub-FE/static/js/main.a00b3c26.js",
+    "static/js/787.af2b23c4.chunk.js": "/Webhub-FE/static/js/787.af2b23c4.chunk.js",
+    "static/media/service1.png": "/Webhub-FE/static/media/service1.adc792ba696524259987.png",
+    "static/media/service3.png": "/Webhub-FE/static/media/service3.4dc734c3955ef5e6b36d.png",
+    "static/media/service2.jpeg": "/Webhub-FE/static/media/service2.aa19db36514e52edd263.jpeg",
+    "static/media/service5.jpeg": "/Webhub-FE/static/media/service5.aecd681c103b61905130.jpeg",
+    "static/media/service4.jpeg": "/Webhub-FE/static/media/service4.0cf7f087ba59c0034bcd.jpeg",
+    "static/media/bootstrap-icons.woff?": "/Webhub-FE/static/media/bootstrap-icons.449ad8adf6ae0424b7ed.woff",
+    "static/media/bootstrap-icons.woff2?": "/Webhub-FE/static/media/bootstrap-icons.dea24bf5a7646d8b84e7.woff2",
+    "index.html": "/Webhub-FE/index.html",
+    "main.a3c25bc9.css.map": "/Webhub-FE/static/css/main.a3c25bc9.css.map",
+    "main.a00b3c26.js.map": "/Webhub-FE/static/js/main.a00b3c26.js.map",
+    "787.af2b23c4.chunk.js.map": "/Webhub-FE/static/js/787.af2b23c4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a3c25bc9.css",
+    "static/js/main.a00b3c26.js"
+  ]
+}
