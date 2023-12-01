@@ -2,7 +2,7 @@ import React from 'react'
 import { useEffect } from 'react';
 import './css/services.css'
 import  Swiper  from 'swiper';
-import { Pagination, EffectCoverflow } from 'swiper/modules';
+import {  EffectCoverflow } from 'swiper/modules';
 
 function Services() {
     const scripted = async () => {

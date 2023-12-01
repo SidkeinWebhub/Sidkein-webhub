@@ -19,7 +19,7 @@
     z-index: 999 ;
 } */
 
-@import "normalize.css";
+/* @import "normalize.css"; */
 
 @font-face {
   font-family: "Geist Sans";
@@ -72,11 +72,12 @@ body {
 
 @supports (animation-timeline: scroll()) {
 	.content {
+    
 	  view-timeline: --content;
 	  -webkit-animation: grow linear both;
 	          animation: grow linear both;
 	  animation-timeline: scroll();
-	  animation-range: 0 50vh;
+	  /* animation-range: 0 50vh; */
 	}
 }
 
