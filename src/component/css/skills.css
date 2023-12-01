@@ -1,0 +1,36 @@
+.skills{
+  margin-top: 100px;
+  background: transparent;
+}
+.skill-carousal{
+  background: transparent;
+}
+.skill-section{
+  background : transparent;
+  /* margin-top: 100px; */
+}
+.skill-img{
+  background : transparent;
+  filter:none;
+}
+
+@media (max-width: 768px) {
+  .skills{
+  margin-top: 100px;
+  margin-left: 15%;
+  background: transparent;
+}
+.skill-carousal{
+  background: transparent;
+}
+.skill-section{
+  background : transparent;
+  /* margin-top: 100px; */
+}
+.skill-img{
+  height: 60%;
+  background : transparent;
+  filter:none;
+}
+
+}

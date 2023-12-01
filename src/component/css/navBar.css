@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Roboto:wght@300;400;500;900&display=swap");
+*{
+    font-family: "Open Sans", sans-serif;
+}
+
+nav{
+    z-index: 10;
+    background: transparent;
+    margin-top: -40px;
+    margin-bottom: -5px;
+}
+
+
+/* @media (max-width: 768px) {
+    nav{
+        z-index: 10;
+        height: 200px;
+        background: transparent;
+    }
+} */

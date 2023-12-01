@@ -1,0 +1,33 @@
+*{
+    z-index: 9;
+}
+.contact-form--1 {
+    background: transparent;
+    margin-top: 200px;
+    z-index: 999;
+    /* background: url(../../../public/assets/images/contactbg.png); */
+}
+.contact{
+    z-index: 999;
+}
+.title{
+    position: relative;
+    background: transparent;
+    z-index: 9;
+}
+.section-title {
+    z-index: 9;
+}
+.description{
+    background: transparent;
+}
+.form-wrapper{
+    z-index: 99;
+}
+.form-group{
+    background: transparent;
+}
+img{
+    background: transparent;
+    filter: drop-shadow(16px 7px 8px #137fd2);
+}

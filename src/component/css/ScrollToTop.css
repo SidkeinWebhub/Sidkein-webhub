@@ -1,0 +1,26 @@
+/* @use './modules/vrs'; */
+.ant-back-top{
+    background: transparent;
+}
+.scroll-to-top {
+    width: 40px;
+    height: 40px;
+    background-color:#266FCD;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 20px;
+    cursor: pointer;
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  .scroll-to-top.show {
+    opacity: 1;
+  }
+  

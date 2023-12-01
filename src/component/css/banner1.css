@@ -1,0 +1,216 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Roboto:wght@300;400;500;900&display=swap");
+
+*{
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+.banner{
+  height:100%;
+    /* background-image: url(../../../public/assets/images/Animated\ Shape.svg); */
+    /* background-color: aquamarine; */
+}
+@keyframes slide-up {
+    
+  0%{
+     padding-top: 10%;
+     color: rgba(255, 255, 255,0.2);
+  }
+  100%{
+     padding-top:0%;
+     /* color: rgba(255,  255, 255,0.2); */
+  }
+}
+
+.banner-heading{
+    font-family: "Roboto", sans-serif;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    background: transparent;
+    /* margin-top: -70px; */
+    width: 45%;
+    text-align:justify;
+    animation: slide-up 2s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    animation-name: slide-up;
+    /* background: rgba( 255, 255, 255, 0.1 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 1px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 ); */
+}
+.banner-heading h3 {
+    background: transparent;
+    font-family: "Roboto", sans-serif;
+    font-weight: 350;
+}
+.banner-heading i{
+    background: transparent;
+    font-size: 1rem;
+    text-align:justify;
+    /* font-size: 20px; */
+    font-family: "Roboto", sans-serif;
+    animation: slide-up 2s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    animation-name: slide-up;
+}
+/* === removing default button style ===*/
+.button {
+    position: absolute;
+    bottom:-30px;
+    /* top: 10%; */
+    right: 0%;
+    background: transparent;
+    margin: 0;
+    height: auto;
+    padding: 0;
+    border: none;
+    cursor: pointer;
+    animation: slide-up 2s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    animation-name: slide-up;
+  }
+  
+  /* button styling */
+  .button {
+    font-family: "Roboto", sans-serif;
+    --border-right: 6px;
+    --text-stroke-color: rgba(255,255,255,0.6);
+    --animation-color: #589ee0;
+    --fs-size: 2em;
+    letter-spacing: 3px;
+    text-decoration: none;
+    font-size: var(--fs-size);
+    /* font-family: "Arial"; */
+    position: relative;
+    text-transform: uppercase;
+    color: transparent;
+    -webkit-text-stroke: 1px var(--text-stroke-color);
+  }
+  /* this is the text, when you hover on button */
+  .hover-text {
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 1px;
+    position: absolute;
+    box-sizing: border-box;
+    content: attr(data-text);
+    color: var(--animation-color);
+    width: 0%;
+    inset: 0;
+    border-right: var(--border-right) solid var(--animation-color);
+    overflow: hidden;
+    transition: 0.5s;
+    -webkit-text-stroke: 1px var(--animation-color);
+  }
+  /* hover */
+  .button:hover .hover-text {
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 1px;
+    width: 100%;
+    filter: drop-shadow(0 0 23px var(--animation-color))
+  }
+
+@media (min-width:769px) and (max-width:1200px) {
+  .banner-heading{
+    font-family: "Roboto", sans-serif;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    background: transparent;
+    /* width: 45%; */
+    text-align:justify;
+  }
+}
+
+@media (min-width:500px) and (max-width: 768px) {
+  .banner{
+    height: 650px;
+    position: relative;
+    background: transparent;
+  }
+  .banner-heading{
+    font-family: "Roboto", sans-serif;
+    top: 0%;
+    text-align:justify;
+  }
+  .banner-heading h3 {
+    font-size: 25px;
+  }
+  .banner-heading i{
+      background: transparent;
+      font-size: 1rem;
+      width: auto;
+      text-align:justify;
+      letter-spacing: 0.2px;
+  }
+  .button {
+    right: 50%;
+  }
+  
+  .button {
+    --fs-size: 1.5em;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-size: var(--fs-size);
+  }
+  .hover-text {
+    letter-spacing: 0px;
+  }
+  .button:hover .hover-text {
+    letter-spacing: 0px; 
+  }
+}
+@media (max-width: 499px) {
+  .banner{
+    height: 850px;
+    position: relative;
+    background: transparent;
+  }
+  .banner img{
+    margin-top: 120px;
+    margin-left: -60px;
+    object-fit: cover;
+    transform: scale(2.5);
+  }
+  .banner-heading{
+    font-family: "Roboto", sans-serif;
+    top: 0%;
+    text-align:justify;
+  }
+  .banner-heading h3 {
+    font-size: 25px;
+  }
+  .banner-heading i{
+      background: transparent;
+      font-size: 1rem;
+      width: auto;
+      text-align:justify;
+      letter-spacing: 0.2px;
+  }
+  .button {
+    right: 50%;
+  }
+  
+  .button {
+    --fs-size: 1.4em;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-size: var(--fs-size);
+  }
+}
