@@ -66,24 +66,6 @@ function Services() {
         </div>
         
       </div>
-      <div className="swiper-slide swiper-slide--four swiper-slide-active">
-      <div className='swiper-text'>
-          <h2>Web Design and Development</h2>
-          <p>Transform your online presence with visually stunning and highly functional websites. Our expert team crafts custom designs and ensures seamless development for a user-centric experience.</p>
-          <a href="/service" >explore</a>
-        </div>
-        
-      </div>
-
-      <div className="swiper-slide swiper-slide--five">
-        <div className='swiper-text'>
-          <h2>E-commerce Solutions</h2>
-          <p>
-          Elevate your online store with our e-commerce expertise. From user-friendly interfaces to secure payment gateways, we create robust and scalable e-commerce platforms that drive sales.
-          </p>
-          <a href="/service">explore</a>
-        </div>
-      </div>
       <div className="swiper-slide swiper-slide--two">
         <div className='swiper-text'>
             <h2>Website Maintenance and Support</h2>
@@ -105,6 +87,25 @@ function Services() {
           <a href="/service">explore</a>
         </div>
       </div>
+      <div className="swiper-slide swiper-slide--four swiper-slide-active">
+      <div className='swiper-text'>
+          <h2>Web Design and Development</h2>
+          <p>Transform your online presence with visually stunning and highly functional websites. Our expert team crafts custom designs and ensures seamless development for a user-centric experience.</p>
+          <a href="/service" >explore</a>
+        </div>
+        
+      </div>
+
+      <div className="swiper-slide swiper-slide--five">
+        <div className='swiper-text'>
+          <h2>E-commerce Solutions</h2>
+          <p>
+          Elevate your online store with our e-commerce expertise. From user-friendly interfaces to secure payment gateways, we create robust and scalable e-commerce platforms that drive sales.
+          </p>
+          <a href="/service">explore</a>
+        </div>
+      </div>
+      
 
       
     </div>
