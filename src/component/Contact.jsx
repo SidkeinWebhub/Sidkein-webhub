@@ -19,12 +19,12 @@ function Contact() {
         try {
             await axios.post(`https://webhub-av0p.onrender.com/api/v1/create`, user)
 
-            await axios
+             axios
                 .post(
                     `https://webhub-av0p.onrender.com/api/v1/sendmailUser`,
                     { email: user.email }
                 )
-            await axios
+             axios
                 .post(`https://webhub-av0p.onrender.com/api/v1/sendmail`, {
                   userName: user.userName,
                   email: user.email,
@@ -36,7 +36,7 @@ function Contact() {
                     // navigate(`/`)
                 }).catch(err => toast.error(err.response.data.msg))
         } catch (err) {
-            toast.error(err.message)
+            toast.error("Email Id/ Mobile Number Already Exist")
         }
     }
   return (
