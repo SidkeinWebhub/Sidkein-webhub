@@ -1,6 +1,7 @@
 import React from 'react'
 import { Carousel } from "antd";
 import './css/banner2.css'
+import "normalize.css";
 
 function Banner2() {
     

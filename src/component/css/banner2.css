@@ -52,6 +52,7 @@ body {
 	animation-range: 0 50vh;
 } */
 
+
 @-webkit-keyframes scale-down {
 	to { scale: 0.75; }
 }
@@ -72,7 +73,6 @@ body {
 
 @supports (animation-timeline: scroll()) {
 	.content {
-    
 	  view-timeline: --content;
 	  -webkit-animation: grow linear both;
 	          animation: grow linear both;
