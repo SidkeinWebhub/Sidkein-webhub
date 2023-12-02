@@ -135,10 +135,11 @@ main > div > a:hover {
   background-color: transparent;
 }
 
-.swiper-slide a {
-  margin: 1.25rem 1.563rem 3.438rem 1.563rem;
-  padding: 0.438em 1.875rem;
-  font-size: 0.9rem;
+.swiper-nav {
+  border: 2px solid #c2c2c2;
+  margin-top: 0.188rem;
+  margin: 10px;
+  padding: 0.625rem 1.875rem;
 }
 
 .swiper-slide a:hover {

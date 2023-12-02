@@ -3,6 +3,7 @@ import { useEffect } from 'react';
 import './css/services.css'
 import  Swiper  from 'swiper';
 import {  EffectCoverflow } from 'swiper/modules';
+import { NavLink } from 'react-router-dom'
 
 function Services() {
     const scripted = async () => {
@@ -52,7 +53,8 @@ function Services() {
     <h1>Our Web Solutions</h1>
     <hr />
     <p>At Sidkein WebHub, we offer a diverse range of web development services tailored to meet the unique needs of businesses and individuals.</p>
-    <a href="/service">Explore Our Services</a>
+    {/* <a href="/service">Explore Our Services</a> */}
+    <NavLink to={`/service`}>Explore Our Services</NavLink>
   </div>
   <div className="swiper">
     <div className="swiper-wrapper">
@@ -62,7 +64,7 @@ function Services() {
           <p>
           Ensure a seamless user experience across devices with our responsive web design services. Your website will look and function flawlessly on desktops, tablets, and smartphones.
           </p>
-          <a href="/service" >explore</a>
+          <NavLink to={`/service`} className='swiper-nav'>explore</NavLink>
         </div>
         
       </div>
@@ -72,7 +74,7 @@ function Services() {
             <p>
             Keep your website running smoothly with our maintenance and support services. We offer regular updates, security checks, and prompt assistance to address any issues.
             </p>
-            <a href="/service" >explore</a>
+            <NavLink to={`/service`} className='swiper-nav'> explore</NavLink>
           </div>
 
       </div>
@@ -84,14 +86,14 @@ function Services() {
           <p>
           Take control of your website's content with our CMS solutions. We provide user-friendly systems that allow you to manage and update your content efficiently, keeping your site fresh and relevant.
           </p>
-          <a href="/service">explore</a>
+          <NavLink to={`/service`} className='swiper-nav'>explore</NavLink>
         </div>
       </div>
       <div className="swiper-slide swiper-slide--four swiper-slide-active">
       <div className='swiper-text'>
           <h2>Web Design and Development</h2>
           <p>Transform your online presence with visually stunning and highly functional websites. Our expert team crafts custom designs and ensures seamless development for a user-centric experience.</p>
-          <a href="/service" >explore</a>
+          <NavLink to={`/service`} className='swiper-nav'> explore</NavLink>
         </div>
         
       </div>
@@ -102,7 +104,7 @@ function Services() {
           <p>
           Elevate your online store with our e-commerce expertise. From user-friendly interfaces to secure payment gateways, we create robust and scalable e-commerce platforms that drive sales.
           </p>
-          <a href="/service">explore</a>
+          <NavLink to={`/service`} className='swiper-nav'> explore</NavLink>
         </div>
       </div>
       
